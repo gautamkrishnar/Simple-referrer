@@ -1,5 +1,5 @@
 # Simple referrer
-A lightweight website referrer tracker code written in javascript and php.
+A lightweight website referrer tracker code written in javascript and php. Without any complex database connections.
 
 ### Requirements
 - Webserver with PHP support
