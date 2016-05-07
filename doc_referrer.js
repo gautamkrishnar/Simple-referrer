@@ -1,10 +1,15 @@
-function 
+function getref()
 {
-  //gets the referrer url
-  var b=Date();
-  var a=document.referrer;
-  a=b+" : "+a;
+	if(document.referrer=="")
+	{	// No referrer data found
+		return;
+		}
 
+  var a=document.referrer;
+  
   //saves the referrer to referrer.txt using saveref.php script
-  $.post("updatemark.php",ref:a);
+  $.post("saveref.php",{ref:a}, function(result){  
+    });
+  $.post();
+  console.log(a);
 }
