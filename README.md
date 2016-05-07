@@ -9,6 +9,7 @@ Just copy the **saveref.php** and **doc_referrer.js** file to your server direct
 
 Include the **doc_referrer.js** in your website's pages:
 ```html
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js' type='text/javascript'></script>
 <script src='doc_referrer.js' type='text/javascript'></script>
 ```
 
@@ -23,8 +24,8 @@ New file named **referrer.txt** will be created by the PHP script and appended w
 
 Sample data on referrer.txt:
 ```
-Sun Jan 10 2016 21:53:05 GMT+0530 (India Standard Time) : https://www.google.co.in
-Sun Jan 10 2016 21:54:13 GMT+0530 (India Standard Time) : https://www.facebook.com
+02:26:08pm 07-05-2016 : http://localhost/test.html
+02:26:20pm 07-05-2016 : http://www.google.com/
 ```
 
 
