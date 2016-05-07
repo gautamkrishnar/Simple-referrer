@@ -10,6 +10,4 @@ function getref()
   //saves the referrer to referrer.txt using saveref.php script
   $.post("saveref.php",{ref:a}, function(result){  
     });
-  $.post();
-  console.log(a);
 }
